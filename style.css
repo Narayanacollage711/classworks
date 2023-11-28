@@ -1,0 +1,169 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.bac{
+    background-position: center;
+    background-image: url(bac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+#che{
+    /* margin:15px;
+    padding: 15px; */
+    border: rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
+    border-style: 5px double;
+    height: 25vh;
+    width: 50vw;
+    border: 2px solid black;
+    border-width: 5px;
+    /* backdrop-filter: blur(10px) ; */
+}
+#che:hover{
+    border: rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
+    border-style: double;
+    height: 30vh;
+    width: 60vw;
+}
+#che:active{
+    border: rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
+    border-style: double;
+    height: 30vh;
+    width: 60vw;
+    background-color: rosybrown;
+}
+#fir,#sec{
+    margin:0px;
+    padding: 0px;
+    color: rgba(0, 253, 0, 1.0);
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 1.0);
+    text-align: center;
+    font-size: larger;
+    animation: blink 1s infinite; 
+    /* Change the duration as needed */
+}
+@keyframes blink {
+    0% {
+      opacity: 1;
+      color: green;
+    }
+    25%{
+        opacity: 1;
+        color: aqua;        
+    }
+    75%{
+        opacity: 1;
+        color: blueviolet;
+    }
+    80%{
+        opacity: 1;
+        color: red;
+    }
+    50% {
+      opacity: 1;
+      color: blue;
+    }
+    100% {
+      opacity: 1;
+      color: green;
+    }
+  } 
+#bcm{
+    border: rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
+    border-style: 5px double;
+    height: 25vh;
+    width: 50vw;
+    border: 2px solid black;
+    border-width: 5px;
+}
+#bcm:hover{
+    border: rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
+    border-style: double;
+    height: 30vh;
+    width: 60vw;
+}
+#bcm:active{
+    border: rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
+    border-style: double;
+    height: 30vh;
+    width: 60vw;
+    background-color: rosybrown;
+}
+#cp:hover{
+    border: rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
+    border-style: double;
+    height: 30vh;
+    width: 60vw;
+}
+#cp:active{
+    border: rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
+    border-style: double;
+    height: 30vh;
+    width: 60vw;
+    background-color: rosybrown;
+}
+#cp{
+    border: rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
+    border-style: 5px double;
+    height: 25vh;
+    width: 50vw;
+    border: 2px solid black;
+    border-width: 5px;
+}
+#ce:hover{
+    border: rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
+    border-style: double;
+    height: 30vh;
+    width: 60vw;
+}
+#ce:active{
+    border: rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
+    border-style: double;
+    height: 30vh;
+    width: 60vw;
+    background-color: rosybrown;
+}
+#ce{
+    border: rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
+    border-style: 5px double;
+    height: 25vh;
+    width: 50vw;
+    border: 2px solid black;
+    border-width: 5px; 
+
+}
+#nec{
+    margin-top: 3px;
+    width: 60vw;
+    /* height: 30vh; */
+    border-width: 50px;
+    /* border-radius: 30px; */
+    border: 1px solid black;
+}
+#hr{
+    font-weight: 900;
+    color: rgba(0, 0, 0, 1.0);
+}
+#dpm{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+    border-width: 30px;
+    border-color: black;
+    border: 2px solid black;
+}
