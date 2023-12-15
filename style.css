@@ -159,6 +159,9 @@
     font-weight: 900;
     color: rgba(0, 0, 0, 1.0);
 }
+#me{
+    color:white;
+}
 #dpm{
     padding: 5px;
     margin: 5px;
